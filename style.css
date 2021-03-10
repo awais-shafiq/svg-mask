@@ -1,0 +1,45 @@
+.icon {
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	-webkit-mask: url("/icon.svg") no-repeat 50% 50%;
+	mask: url("/icon.svg") no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+}
+
+.icon-red {
+	background-color: red;
+}
+
+.icon-red:hover {
+	background-color: blue;
+}
+
+.icon-orange {
+	background-color: orange;
+}
+
+.icon-orange:hover {
+	background-color: purple;
+}
+
+.icon-yellow {
+	background-color: yellow;
+}
+
+.icon-green {
+	background-color: green;
+}
+
+.icon-blue {
+	background-color: blue;
+}
+
+.icon-indigo {
+	background-color: indigo;
+}
+
+.icon-violet {
+	background-color: violet;
+}
